@@ -1,0 +1,41 @@
+header{
+    background-color: #0020F4;
+    size: 1920px;
+    font-family: HelveticaRegular;
+    height: 400px;
+}
+.conteiner{
+    position: fixed;
+    background-color: #0020F4;
+    width: 100%;
+}
+.nav-ul a{
+    color: white;
+}
+.nav-ul,
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-ul{
+    margin-right: 20px;
+}
+.nav-ul li{
+    margin-right: 50px;
+}
+.nav-button{
+    background-color: white;
+    border: 5px solid white;
+    border-color: white;
+    padding: 8px;
+    border-radius: 28px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    font-family: HelveticaRegular;
+}
+.nav-button:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+}

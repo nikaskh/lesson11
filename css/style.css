@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.first-photo{
+    max-width: 1195px;
+    width: 100%;
+}
+.first-photo-div{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.father-div-box{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "h2 h2 h2 h2";
+}
+.h2-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.box:nth-child(1){
+    grid-area: h2;
+    display: flex;
+    justify-content: flex-start;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-div-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.second-section-photo{
+    margin-right: 40px;
+}
+.div-father-p p{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    font-family:  HelveticaRegular;
+}
+.add-information-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.add-information{
+    background-color: #0020F4;
+    color: white;
+    border-radius: 28px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family:  HelveticaRegular
+}
+@media (max-width:768px){
+    header {
+        border-radius: 0px 0px 40px 40px;
+    }
+    header nav{
+        display: none;
+    }
+    .conteiner{
+        display: flex;
+        justify-content: center;
+    }
+    .first-section{
+       max-width: 100%;
+    }
+    .first-photo{
+        max-width: 334px;
+    }
+    .logo{
+        max-width:97px;
+        margin-top:50px;
+        margin-right:20px;
+    }
+    .conteiner-three{
+        display:flex;
+        flex-direction:column-reverse; 
+    }
+    .send-button-div{
+        display:flex;
+        justify-content:center;
+    }
+    .list{
+        display: none;
+    }
+    .conteiner-three-child-div{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+    .numberli{
+        display: flex;
+        vertical-align: middle;
+    }
+}
